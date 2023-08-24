@@ -20,7 +20,7 @@ const Questao01e02e04 = () => {
         style={{ width: 200, height: 200, borderRadius: 100 }}
         source={{ uri: source }}
       />
-      <Text style={{ fontSize: 25 }}>Yuri Silva de Lima</Text>
+      <Text style={{ fontSize: 25, fontWeight: "bold" }}>Yuri Silva de Lima</Text>
       <Text>Maracanaú</Text>
       <Text style={{ color: 'red' }}>Design Digital | 6º Semestre</Text>
       <Button
