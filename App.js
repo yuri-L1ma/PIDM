@@ -11,7 +11,7 @@ import {View, StyleSheet} from 'react-native';
 // import estilos from './css/MyCSS';
 // import MyTextInput from './components/aulas/07TextInput/07TextInput';
 // import JuntarFrases from './components/aulas/08JuntarFrases';
-import Calculadora from './components/aulas/09Calculadora/09Caculadora';
+// import Calculadora from './components/aulas/09Calculadora/09Caculadora';
 // import MyScrollView from './components/aulas/10MyScrollView';
 // import MyFlatList from './components/aulas/11MyFlatList';
 // import MySectionList from './components/aulas/12SectionList';
@@ -23,22 +23,24 @@ import Calculadora from './components/aulas/09Calculadora/09Caculadora';
 // import MainScreen from './components/aulas/15NavigationAula/15NavStack/MainScreen';
 // import PokemonApp from './components_prof/15Navigation/05Pokemon/PokemonApp';
 // import PokemonApp from "./components/aulas/16Pokemon/PokemonApp";
+// import Questao01 from "./components/prova/Questao01";
+import ProvaApp from './components/prova/ProvaApp';
 
 export default function App() {
   return (
     <>
-      <Calculadora></Calculadora>
+      <ProvaApp />
     </>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     alignItems: 'center',
+//     justifyContent: 'center',
+//   },
+// });
 
 
 
