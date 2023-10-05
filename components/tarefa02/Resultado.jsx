@@ -33,7 +33,7 @@ const Resultado = ({route, navigation}) => {
     }
     return (
         <View>
-            <Text>Resultado</Text>
+            <Text>Resultados</Text>
             
             <Text>Seu IMC é: {imc}</Text>
             <Text>Resultado: {resultado}</Text>
